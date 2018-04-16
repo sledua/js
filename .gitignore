@@ -1,4 +1,8 @@
-.sass-cache/
-*.css.map
-node_modules/
-package-lock.json
+/node_modules/
+/dist/
+/.git/
+/app/css/
+/**/_backstage
+/**/package-lock.json
+/**/Thumbs.db
+.vscode
