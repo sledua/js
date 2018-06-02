@@ -1,4 +1,4 @@
-<h1><strong>OptimizedHTML 4:</strong> <br>Startup HTML template based on Gulp & Bootstrap 4</h1>
+<h1><strong>StartPage</strong> <br>Startup HTML template based on Gulp & Bootstrap 4</h1>
 
 <p>
 	<img src="https://raw.githubusercontent.com/sledua/startPage/master/app/img/preview.jpg" alt="Template">
@@ -6,9 +6,9 @@
 
 <p>Author: ArtSled</p>
 
-<p>OptimizedHTML is all-inclusive start HTML5 template with Bootstrap 4 (grid & reboot), Gulp, Sass, Browsersync, Autoprefixer, Clean-CSS, Uglify, Rsync and Bower (libs path) support. The template contains a <strong>.htaccess</strong> file with caching rules for web server.</p>
+<p>StartPage is all-inclusive start HTML5 template with Bootstrap 4 (grid & reboot), Gulp, Sass, Browsersync, Autoprefixer, Clean-CSS, Uglify, Rsync and Bower (libs path) support. The template contains a <strong>.htaccess</strong> file with caching rules for web server.</p>
 
-<p><strong>OptimizedHTML 4</strong> Start Template uses the best practices of web development.</p>
+<p><strong>StartPage</strong> Start Template uses the best practices of web development.</p>
 
 <p>Cross-browser compatibility: IE9+.</p>
 
@@ -17,7 +17,7 @@
 <h2>How to use OptimizedHTML</h2>
 
 <ol>
-	<li><a href="https://github.com/sledua/startPage/archive/master.zip">Download</a> <strong>OptimizedHTML 4</strong> from GitHub;</li>
+	<li><a href="https://github.com/sledua/startPage/archive/master.zip">Download</a> <strong>StartPage</strong> from GitHub;</li>
 	<li>Install Node Modules: <strong>npm i</strong>;</li>
 	<li>Run the template: <strong>gulp</strong>.</li>
 </ol>
