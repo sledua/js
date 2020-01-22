@@ -1,24 +1,37 @@
 {
-  "name": "startpage",
-  "version": "0.1.0",
-  "description": "startpage - HTML Template",
+  "name": "startPage",
+  "version": "1.0.0",
+  "description": "Необходимое окружение на локальной машине node.js[https://nodejs.org/]\r <p>Перед устоновкой выполни команды</p>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ArtSled",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sledua/startPage.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sledua/startPage/issues"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions",
+  ],
+  "homepage": "https://github.com/sledua/startPage#readme",
   "devDependencies": {
-    "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean-css": "^3.9.3",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
-    "gulp-notify": "^3.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-rsync": "0.0.8",
-    "gulp-sass": "^4.0.1",
-    "gulp-uglify": "^3.0.0",
-    "gulp-util": "^3.0.8"
+    "gulp-csso": "^4.0.1",
+    "gulp-file-include": "^2.1.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^4.0.2"
   }
 }
