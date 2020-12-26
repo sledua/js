@@ -1,6 +1,5 @@
-@import "vars";
-@import "fonts";
-@import "libs";
+@import "app/src/assets/scss/vars";
+@import "app/src/assets/scss/fonts";
 
 ::placeholder {
 	color: #666;
@@ -62,4 +61,4 @@ nav {
 	}
 }
 
-@import "media"; // Always at the end
+@import "app/src/assets/scss/media"; // Always at the end
