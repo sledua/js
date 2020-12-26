@@ -1,0 +1,4 @@
+@import "_mixins/font-face";
+
+@include font-face("Inter-Regular", "../fonts/Inter/static/Inter-Regular");
+@include font-face("Inter-Bold", "../fonts/Inter/static/Inter-Bold", bold);

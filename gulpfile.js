@@ -20,7 +20,7 @@ const browserSync = require("browser-sync").create();
 
 
 /* Paths */
-const srcPath = 'src/';
+const srcPath = 'app/';
 const distPath = 'dist/';
 
 const path = {
@@ -47,8 +47,6 @@ const path = {
     },
     clean: "./" + distPath
 }
-
-
 
 /* Tasks */
 
@@ -198,8 +196,8 @@ function jsWatch(cb) {
 function images(cb) {
     return src(path.src.images)
         .pipe(imagemin([
-            imagemin.gifsicle({interlaced: true}),
-            imagemin.mozjpeg({quality: 95, progressive: true}),
+            //imagemin.gifsicle({interlaced: true}),
+            //imagemin.mozjpeg({quality: 95, progressive: true}),
             imagemin.optipng({optimizationLevel: 5}),
             imagemin.svgo({
                 plugins: [
@@ -210,7 +208,6 @@ function images(cb) {
         ]))
         .pipe(dest(path.build.images))
         .pipe(browserSync.reload({stream: true}));
-
     cb();
 }
 
@@ -238,8 +235,6 @@ function watchFiles() {
 
 const build = gulp.series(clean, gulp.parallel(html, css, js, images, fonts));
 const watch = gulp.parallel(build, watchFiles, serve);
-
-
 
 /* Exports Tasks */
 exports.html = html;

@@ -1,5 +1,13 @@
-$default-font: "roboto-example", sans-serif;
-$accent: orange;
+$default-font: "Inter-Regular", sans-serif;
+$default-font-bold: "Inter-Bold", sans-serif;
+//colors
+//tip-g
+$white: #ffffff;
+$black: #000000;
+$red: #d40a0a;
+
+//z-index
+$header: 1000;
 
 // Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
 $grid-gutter-width: 30px;
