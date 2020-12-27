@@ -1,6 +1,8 @@
 .container {
-  max-width: 10.6rem;
   margin: 0 auto;
   padding-left: 5rem;
   padding-right: 5rem;
+  &.has--poster {
+    background-color: $bg-top-poster;
+  }
 }

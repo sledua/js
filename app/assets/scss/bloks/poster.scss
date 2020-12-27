@@ -1,0 +1,36 @@
+.poster {
+  width: 100%;
+  height: 46rem;
+  display: flex;
+  margin-bottom: 4rem;
+}
+.poster__texts {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  h2 {
+    font-family: $default-font-bold;
+    font-size: 8rem;
+    line-height: 1;
+  }
+  p {
+    font-family: inherit;
+    font-size: 3rem;
+    color: $text-grey;
+    padding-top: 2rem;
+  }
+}
+.poster__image {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}

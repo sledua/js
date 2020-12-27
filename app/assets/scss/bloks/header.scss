@@ -2,7 +2,24 @@
   position: fixed;
   top: 0;
   right: 0;
-  height: 85px;
   width: 100%;
   z-index: $header;
+  display: flex;
+  padding-left: 3.8rem;
+  padding-right: 3rem;
+}
+.header__left {
+  display: flex;
+  width: 40%;
+  justify-content: flex-start;
+}
+.header__center {
+  display: flex;
+  width: 20%;
+  justify-content: flex-start;
+}
+.header__right {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
 }

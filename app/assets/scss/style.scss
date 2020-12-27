@@ -1,0 +1,67 @@
+@import "vars";
+@import "fonts";
+@import "vendor/reset";
+
+::placeholder {
+    color: #666;
+}
+
+::selection {
+    background-color: $white;
+    color: $red;
+}
+html {
+    font-size: 62.5%;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-size: 1.4rem;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.65;
+    font-family: $default-font;
+    overflow-x: hidden;
+}
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    &.img-width {
+        width: 100%;
+    }
+}
+.text-center {
+    text-align: center;
+}
+nav {
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        padding: 6px 12px;
+    }
+    a {
+        display: block;
+        text-decoration: none;
+    }
+}
+@import "bloks/header";
+@import "bloks/nav";
+@import "bloks/search";
+@import "bloks/main";
+@import "bloks/container";
+@import "bloks/poster";
+@import "bloks/posts";
+@import "bloks/post-primary";
+@import "bloks/footer";
+
+@import "media";
+// Always at the end
