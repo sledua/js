@@ -5,43 +5,69 @@
   gap: 4rem 6rem;
   grid-template-areas: "top top top" "left center right";
 }
+.item__text__info {
+  display: flex;
+  justify-content: space-between;
+  time {
+    font-family: inherit;
+    font-size: 1.2rem;
+    color: $text-p;
+  }
+  a {
+    font-family: $default-font-bold;
+    font-size: 1.2rem;
+    color: $text-h3;
+    text-decoration: none;
+  }
+}
 .posts__list__item {
+  border: 1px solid $border-color;
+  box-shadow: 0 4px 4px rgba($black, 0.25);
+  transition: box-shadow .2s linear;
+  &:hover {
+    box-shadow: 0 4px 4px rgba($black, 0.45);
+  }
+  h3 {
+    font-family: $default-font-bold;
+    color: $text-h3;
+  }
+  p {
+    font-family: inherit;
+    font-size: 1.4rem;
+    color: $text-p;
+  }
+  &.small {
+    h3 {
+      font-size: 2rem;
+      padding-top: 1.8rem;
+      padding-bottom: 1.5rem;
+      padding-left: 1.5rem;
+
+    }
+    p {
+      padding-bottom: 2rem;
+      padding-left: 1.5rem;
+      padding-right: 2.1rem;
+    }
+    .item__text__info {
+      padding-left: 1.5rem;
+      padding-right: 2.1rem;
+      padding-bottom: 2rem;
+    }
+  }
   &.top {
     display: flex;
     justify-content: space-between;
-    border: 2px solid $text-grey;
     grid-area: top;
     .item__text {
       width: 55%;
-      padding-top: 3.5rem;
-      padding-left: 5rem;
-      padding-right: 5rem;
+      padding: 3.5rem 5rem 0;
       h3 {
-        font-family: $default-font-bold;
         font-size: 3rem;
-        color: $text-h3;
         padding-bottom: 1rem;
       }
-      p {
-        font-family: inherit;
-        font-size: 1.4rem;
-        color: $text-p;
-      }
       .item__text__info {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 2rem;
-        time {
-          font-family: inherit;
-          font-size: 1.2rem;
-          color: $text-p;
-        }
-        a {
-          font-family: $default-font-bold;
-          font-size: 1.2rem;
-          color: $text-h3;
-          text-decoration: none;
-        }
+        padding-top: 2rem;
       }
     }
     .item__img__top {

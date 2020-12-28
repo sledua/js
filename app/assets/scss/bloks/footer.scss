@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  padding: 4rem 3rem 4rem 3.8rem;
+  border-top: 1px solid $border-color;
+}
+.footer__left {
+  display: flex;
+  width: 40%;
+  justify-content: flex-start;
+}
+.footer__right {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
