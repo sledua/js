@@ -1,12 +1,8 @@
 .header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  z-index: $header;
   display: flex;
   padding-left: 3.8rem;
   padding-right: 3rem;
+  margin-top: 3rem;
 }
 .header__left {
   display: flex;
@@ -17,6 +13,7 @@
   display: flex;
   width: 20%;
   justify-content: flex-start;
+  align-items: center;
 }
 .header__right {
   width: 40%;
