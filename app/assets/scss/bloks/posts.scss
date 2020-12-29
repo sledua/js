@@ -70,13 +70,21 @@
         padding-top: 2rem;
       }
     }
-    .item__img__top {
+    img {
+      display: block;
+      width: 100%;
+      max-width: 433px;
       height: auto;
-      img {
-        width: 100%;
-        background-size: cover;
-      }
     }
+    //.item__img__top {
+    //  width: 100%;
+    //  //max-width: 433px;
+    //  img {
+    //    display: block;
+    //    max-width: 433px;
+    //    height: auto;
+    //  }
+    //}
   }
   &.left {
     grid-area: left;

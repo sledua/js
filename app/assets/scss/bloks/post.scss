@@ -1,7 +1,4 @@
 .img-prev {
-  padding-left: 19rem;
-  padding-right: 19rem;
-
   img {
     max-height: 480px;
     width: 100%;
@@ -16,7 +13,7 @@
     font-family: $default-font-bold;
     line-height: 1;
     font-size: 4.5rem;
-    padding-top: 4.3rem;
+    padding-top: 2.5rem;
     padding-bottom: 1.5rem;
   }
   h4 {
@@ -40,27 +37,69 @@
     margin-top: 0;
     padding-bottom: 1.3rem;
   }
-  .post-info {
-    padding-bottom: 3.8rem;
+  .post__navigation {
+    display: block;
     ul {
       display: flex;
+      align-items: center;
       list-style: none;
       margin: 0;
-      padding: 0 0 3rem;
+      padding: 0;
+      li {
+        padding-right: 1rem;
+        a {
+          font-family: $default-font-bold;
+          font-size: 1.4rem;
+          text-decoration: none;
+          color: $text-h3;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        &:first-child::after {
+          content: '/';
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+  .post-info {
+    padding-bottom: 1.3rem;
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      margin: 0;
       border-bottom: 1px solid $border-color;
       li {
+        &:last-child {
+          flex-grow: 1;
+          text-align: end;
+          padding: 0;
+        }
         padding-right: 1.1rem;
         a {
           font-family: $default-font-bold;
           font-size: 1.8rem;
           text-decoration: none;
           color: $text-h3;
+          .fa {
+            font-size: 1.8rem;
+            color: $text-p;
+          }
         }
         time {
           font-family: inherit;
           font-size: 1.8rem;
           color: $text-p;
         }
+      }
+      .share__text {
+        color: $text-p;
+        font-family: $default-font-bold;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        padding-right: .4rem;
       }
     }
 
