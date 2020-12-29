@@ -1,6 +1,8 @@
+@import "vendor/reset";
 @import "vars";
 @import "fonts";
-@import "vendor/reset";
+@import "vendor/font-awesome/font-awesome";
+
 
 ::placeholder {
     color: #666;
@@ -62,6 +64,7 @@ nav {
 @import "bloks/posts";
 @import "bloks/post-primary";
 @import "bloks/pagination";
+@import "bloks/post";
 @import "bloks/footer";
 
 @import "media";

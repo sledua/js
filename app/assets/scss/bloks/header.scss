@@ -3,6 +3,8 @@
   padding-left: 3.8rem;
   padding-right: 3rem;
   margin-top: 3rem;
+  border-bottom: 2px solid $border-color;
+  box-shadow: 0 0 4px rgba($border-color, .5);
 }
 .header__left {
   display: flex;

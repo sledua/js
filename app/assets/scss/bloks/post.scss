@@ -1,0 +1,68 @@
+.img-prev {
+  padding-left: 19rem;
+  padding-right: 19rem;
+
+  img {
+    max-height: 480px;
+    width: 100%;
+
+  }
+}
+.post-text {
+  padding-left: 19rem;
+  padding-right: 19rem;
+  h3 {
+    color: $text-h3;
+    font-family: $default-font-bold;
+    line-height: 1;
+    font-size: 4.5rem;
+    padding-top: 4.3rem;
+    padding-bottom: 1.5rem;
+  }
+  h4 {
+    color: $text-h3;
+    font-family: $default-font-bold;
+    line-height: 1;
+    font-size: 2rem;
+    padding-bottom: .3rem;
+  }
+  p {
+    padding-bottom: 1.3rem;
+    color: $text-p;
+  }
+  blockquote {
+    font-family: $default-font-bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 1.3rem;
+  }
+  .post-info {
+    padding-bottom: 3.8rem;
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0 0 3rem;
+      border-bottom: 1px solid $border-color;
+      li {
+        padding-right: 1.1rem;
+        a {
+          font-family: $default-font-bold;
+          font-size: 1.8rem;
+          text-decoration: none;
+          color: $text-h3;
+        }
+        time {
+          font-family: inherit;
+          font-size: 1.8rem;
+          color: $text-p;
+        }
+      }
+    }
+
+  }
+}
